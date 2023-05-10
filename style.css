@@ -1,0 +1,163 @@
+/* Resetear estilos por defecto */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+	background-color: #f1f1f1;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+button {
+	font-size: 16px;
+	line-height: 1.5;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: #333;
+	color: #fff;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+	background-color: #fff;
+	color: #333;
+}
+
+ul {
+	list-style: none;
+}
+
+/* Estilos del header */
+header {
+	background-color: #fff;
+	box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+	position: sticky;
+	top: 0;
+	z-index: 100;
+}
+
+nav ul {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	height: 50px;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/* Estilos del hero */
+.hero {
+	padding: 100px 20px;
+	text-align: center;
+	background-image: url("https://w0.peakpx.com/wallpaper/745/816/HD-wallpaper-car-black.jpg");
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+}
+
+.hero h1 {
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+
+.hero p {
+	font-size: 24px;
+	margin-bottom: 40px;
+}
+
+/* Estilos de las características */
+.features {
+	padding: 80px 20px;
+	text-align: center;
+	background-color: #fff;
+}
+
+.features h2 {
+	font-size: 36px;
+	margin-bottom: 40px;
+}
+
+.features ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	max-width: 800px;
+}
+
+.features li {
+	font-size: 20px;
+	margin: 20px;
+}
+
+.features li i {
+	margin-right: 10px;
+	color: #333;
+}
+
+/* Estilos de los modelos */
+.models {
+	padding: 80px 20px;
+	text-align: center;
+	background-image: url("https://images.unsplash.com/photo-1499462994724-775b2edaf559?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bnVldmElMjB5b3JrJTIwZGUlMjBub2NoZXxlbnwwfHwwfHw%3D&w=1000&q=80");
+}
+
+.models h2 {
+	font-size: 36px;
+	margin-bottom: 40px;
+	color: #FDFEFE;
+}
+
+.model-card {
+	margin: 20px;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+	border-radius: 5px;
+}
+
+.model-card img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.model-card h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.model-card p {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+/* Estilos del formulario de contacto */
+.contact {
+	padding: 80px 20px;
+	text
+
+mang {
+	color: white;
+}
